@@ -43,7 +43,7 @@ public class Perfil {
     
     private void CriarAquivoATA(String nomeAlo) {
         String nomeArquivo = nomeAlo + "ATA.txt";
-        File file = new File(nomeAlo);
+        File file = new File(nomeArquivo);
         if(file.exists()){
             
         }else{

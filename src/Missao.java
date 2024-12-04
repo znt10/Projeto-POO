@@ -18,7 +18,7 @@ public class Missao {
 
         //verificando o arquivos de ativida
         String nomeArquivo = p.getNome() + "ATA.txt";
-        try (FileWriter fw = new FileWriter(nomeArquivo,false)){
+        try (FileWriter fw = new FileWriter(nomeArquivo,true)){
             fw.write(nomeAt);
         } catch (Exception e) {
             System.out.println(e.getMessage());}
